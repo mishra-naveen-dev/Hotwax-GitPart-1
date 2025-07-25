@@ -9,7 +9,7 @@ database is organised collection of data that allows easy access, management and
 It Store data in a structure way in the database.
 
 ID  Name Age  City
- 1   Naveen 22 Indore
+ 1 Naveen 22 Indore
  2 Neeraj 21    
 
  
