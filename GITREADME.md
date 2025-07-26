@@ -101,7 +101,7 @@ git stash drop
 
 # Delete a specific stash
 git stash drop stash@{2}
-```
+
 
 ---
 
