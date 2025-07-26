@@ -3,7 +3,7 @@
 
 ##  Configuration
 
-```bash
+bash
 # Set username
 git config --global user.name "Your Name"
 
@@ -12,13 +12,12 @@ git config --global user.email "youremail@example.com"
 
 # Check current configuration
 git config --list
-```
 
 ---
 
 ## Repository Setupac
 
-```bash
+bash
 # Initialize a new repository
 git init
 
@@ -27,13 +26,13 @@ git clone <repo-url>
 
 # List remote repositories
 git remote -v
-```
+
 
 ---
 
 ## Basic Workflow
 
-```bash
+bash
 # Check current status
 git status
 
@@ -51,13 +50,13 @@ git pull
 
 # Fetch changes from remote (without merging)
 git fetch
-```
+
 
 ---
 
 ## Branching
 
-```bash
+bash
 # Create a new branch
 git branch <branch-name>
 
@@ -78,13 +77,13 @@ git branch -d <branch-name>
 
 # Force delete a branch
 git branch -D <branch-name>
-```
+
 
 ---
 
 ##  Stashing
 
-```bash
+bash
 # Save changes to stash with a message
 git stash save "Message"
 
@@ -108,7 +107,7 @@ git stash drop stash@{2}
 
 ## Tagging
 
-```bash
+bash
 # Create a lightweight tag
 git tag <tag-name>
 
@@ -120,7 +119,7 @@ git push --tags
 
 # Delete a tag
 git tag -d <tag-name>
-```
+
 
 
 
