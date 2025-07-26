@@ -2,7 +2,7 @@
 
 ###  What is Data?
 Data → A set of meaningful information  
-**Example:** `"Naveen", 22, "Indore"`
+**Example:** "Naveen", 22, "Indore"
 
 ---
 
@@ -33,7 +33,7 @@ Example Table:
 ---
 
 ###  Query vs Statement
-- **Query:** Retrieves data (e.g., `SELECT * FROM students;`)
+- **Query:** Retrieves data (e.g., SELECT * FROM students;)
 - **Statement:** Any SQL instruction, including DDL, DML, and queries
 
 ---
@@ -65,7 +65,7 @@ Example Table:
 | DML (Data Manipulation) | DDL (Data Definition) |
 |-------------------------|------------------------|
 | Deals with data         | Deals with structure   |
-| `SELECT`, `INSERT`, `UPDATE`, `DELETE` | `CREATE`, `ALTER`, `DROP`, `TRUNCATE` |
+| SELECT, INSERT, UPDATE, DELETE | CREATE, ALTER, DROP, TRUNCATE |
 
 ---
 
@@ -94,6 +94,6 @@ Unnormalized Table:
 **3NF** – Remove transitive dependency
 
 Result (3NF):
-- Student Table: `StudentID`, `Name`
-- Course Table: `CourseID`, `CourseName`
-- Enrollment Table: `StudentID`, `CourseID`
+- Student Table: StudentID, Name
+- Course Table: CourseID, CourseName
+- Enrollment Table: StudentID, CourseID
